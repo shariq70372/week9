@@ -1,6 +1,16 @@
 package com.sqe.week9.designpattern;
 
-// Interface
+/**
+ * The Factory Pattern defines an interface or abstract class for
+ * creating objects but lets subclasses or methods decide which class to instantiate.
+ *
+ * Purpose: Useful when the exact type of the object is not known
+ * until runtime (e.g., creating shapes, database connections).
+ *
+ * Key Concepts:
+ * Encapsulates object creation.
+ * Promotes loose coupling by decoupling client code from specific implementations.
+ */
 interface Shape {
     void draw();
 }
