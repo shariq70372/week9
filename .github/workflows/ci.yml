@@ -3,7 +3,7 @@ name: CI with ngrok
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
