@@ -1,5 +1,15 @@
 package com.sqe.week9.designpattern;
 
+/**
+ * The Builder Pattern provides a way to construct complex objects step by step.
+ *
+ * Purpose: Useful when creating complex objects with many
+ * optional parameters (e.g., a user profile with optional fields).
+ *
+ * Key Concepts:
+ * Separates construction from representation.
+ * Provides a clear process for building objects.
+ */
 class Product {
     private String name;
     private double price;

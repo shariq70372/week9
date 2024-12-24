@@ -3,6 +3,17 @@ package com.sqe.week9.designpattern;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * The Observer Pattern defines a one-to-many dependency where
+ * multiple observers listen for and react to state changes in a subject.
+ *
+ * Purpose: Useful for implementing distributed event-handling systems
+ * (e.g., a notification system, GUI event listeners).
+ *
+ * Key Components:
+ * Subject: Maintains a list of observers and notifies them of changes.
+ * Observer: Receives updates from the subject.
+ */
 interface Observer {
     void update(String message);
 }

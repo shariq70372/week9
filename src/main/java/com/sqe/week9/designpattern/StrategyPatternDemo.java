@@ -1,5 +1,16 @@
 package com.sqe.week9.designpattern;
 
+/**
+ * The Strategy Pattern allows you to define a family of algorithms,
+ * encapsulate each one, and make them interchangeable.
+ *
+ * Purpose: Useful for selecting algorithms dynamically at
+ * runtime (e.g., different payment methods, sorting algorithms).
+ *
+ * Key Concepts:
+ * Context: Uses a strategy object.
+ * Strategy: Encapsulates the algorithm.
+ */
 // Strategy Interface
 interface PaymentStrategy {
     void pay(int amount);
