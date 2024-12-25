@@ -1,0 +1,2 @@
+CREATE USER vrud PASSWORD 'yourpassword';
+GRANT ALL ON SCHEMA PUBLIC TO vrud;

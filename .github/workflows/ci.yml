@@ -39,7 +39,7 @@ jobs:
 
       - name: Expose app with ngrok
         env:
-          NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
+          NGROK_AUTH_TOKEN: 2qkYkoqFt3U9yHcDPUwp4faG0l0_2wjbcEqT2FKVy3UCVC6e5
         run: |
           ngrok config add-authtoken $NGROK_AUTH_TOKEN
           nohup ngrok http 8080 &
